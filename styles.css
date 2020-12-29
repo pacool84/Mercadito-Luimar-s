@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --market-orange: #f7931a;
+  --main-color: #61b15a;
+}
+
+.header {
+  width: 100%;
+  height: 135px;
+  min-width: 320px;
+  max-width: 1440px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-color);
+  box-shadow: 9px 9px 23px 10px rgba(198, 204, 198, 1);
+}
+
+.header h1 {
+  color: var(--market-orange);
+  text-transform: uppercase;
+}
+
+.header-logo {
+  height: 70px;
+  width: 261px;
+}
