@@ -35,7 +35,6 @@
 }
 
 .main {
-  border: solid 1px red;
   display: flex;
   flex-direction: row;
 }
@@ -122,8 +121,23 @@
 .card-effect {
   transition: 400ms;
   transform-origin: center;
+  cursor: pointer;
 }
 
 .card-effect:hover {
   transform: scale(1.1);
 }
+
+/* .carousel {
+  border: 1px red solid;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner .carousel-item img {
+  align-self: center;
+  height: 200px;
+  width: 250px;
+} */
